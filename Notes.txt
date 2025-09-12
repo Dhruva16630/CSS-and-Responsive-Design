@@ -22,3 +22,39 @@ px - are fixed based on screen
 % - depends on the parent
 vw - viewport width (changes on screen width)
 vh -  viewport height (changes on screen height)
+vmax - it takes which viewport is maximum
+vmin - it takes which viewport is minimum
+em - give parent a value and give values for child in em if parent value changes it also changes in child 
+rem - it is fixed like 1rem = 16 px
+ch - unit based on character
+lh - unit based on line space or line height
+
+--------------------------------------------------
+FlexBox Layout :
+
+display: Flex
+align-items - handle in y axis (cross axis)
+justify-content - handle in x axis (main axis)
+flex-direction : column
+flex-wrap: wrap
+flex-wrap: nowrap (child -> flex- shrink: 0)
+
+-------------------------------------------------
+Grid Layout : acces to both axis at a time
+
+display: grid
+grid-template-columns: 20% 30% 1fr
+grid-template-row: 20% 30% 1fr
+align-self: center;
+justify-self: center
+
+-----------------------------------------------
+@media Queries:
+
+@media(max-width:600px){ 
+
+} -> max-width: runs for px less than 600px and 600px
+
+@media(max-width:600px) and (min-width:500px){ 
+
+} -> min-width: runs for px above than 500px and 500px
