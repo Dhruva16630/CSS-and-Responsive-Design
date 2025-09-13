@@ -11,11 +11,11 @@ html,body{
     width: 100;
 }
 
-----------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------
 id - #name{}
 class - .name{}
 tags - h1{}
-----------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------
 UnderStanding Units :
 
 px - are fixed based on screen
@@ -29,7 +29,7 @@ rem - it is fixed like 1rem = 16 px
 ch - unit based on character
 lh - unit based on line space or line height
 
---------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------
 FlexBox Layout :
 
 display: Flex
@@ -39,7 +39,7 @@ flex-direction : column
 flex-wrap: wrap
 flex-wrap: nowrap (child -> flex- shrink: 0)
 
--------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 Grid Layout : acces to both axis at a time
 
 display: grid
@@ -48,7 +48,7 @@ grid-template-row: 20% 30% 1fr
 align-self: center;
 justify-self: center
 
------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------
 @media Queries:
 
 @media(max-width:600px){ 
@@ -58,3 +58,15 @@ justify-self: center
 @media(max-width:600px) and (min-width:500px){ 
 
 } -> min-width: runs for px above than 500px and 500px
+
+------------------------------------------------------------------------------------------------------------------------------------------
+Common Device Width Ranges
+
+Device   Type	                Width Range (px)
+Extra    Small (Phones)	        0 – 479px
+Small    (Phones)	            480 – 639px
+Medium   (Tablets)	            640 – 767px
+Large    (Tablets)	            768 – 1023px
+Extra    Large (Laptops)	    1024 – 1279px
+2XL      (Desktops)	            1280 – 1535px
+3XL      (Large Screens)	    1536px and up
